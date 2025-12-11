@@ -1,0 +1,108 @@
+* {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #071f4f;
+    box-sizing: border-box;
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E3ECFF;
+}
+
+#content {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+    font-size: 16px;
+    width: 100%;
+    max-width: 1080px;
+}
+
+.paragraphGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #c2d3f7;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d2e0fa;
+}
+
+button:active {
+    background-color: white;
+}
+
+.cols {
+    display: flex;
+    gap: 40px;
+}
+
+.col {
+    flex: 1;
+    max-width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ul {
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+} 
+
+a {
+    color: #892f5c;
+}
+
+.role {
+    color: #2f5789;
+}
+
+#galleryImages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galleryImage {
+    height: 260px;
+    width: auto;
+    justify-self: center;
+}
+
+@media (max-width: 1080px) {
+    .galleryImage {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#footer {
+    background-color: #C3D2F0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
